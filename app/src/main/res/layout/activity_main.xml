@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/activity1"
+    android:orientation="vertical"
+    >
+
+   <TextView
+       android:id="@+id/tv_judul"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="MDP\nWater"
+       android:textSize="50sp"
+       android:textStyle="bold"
+       android:textColor="@color/white"
+       android:layout_marginTop="80dp"
+       android:layout_marginLeft="50dp"
+
+       />
+
+    <TextView
+        android:id="@+id/tv_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Merupakan aplikasi untuk mengetahui kadar curah hujan di Palembang"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        />
+
+    <Button
+        android:id="@+id/btn_signup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SIGN UP"
+        android:textColor="@color/black"
+        android:padding="16dp"
+        android:textSize="17sp"
+        android:drawableTint="@color/white"
+        android:background="@drawable/bg_corner"
+        android:layout_marginTop="350dp"
+        />
+
+
+</LinearLayout>
